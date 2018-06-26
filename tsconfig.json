@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+        "module": "umd",
+        "esModuleInterop": true,
+        "target": "es5",
+        "noImplicitAny": true,
+        "moduleResolution": "node",
+        "sourceMap": true,
+        "baseUrl": ".",
+        "paths": {
+            "*": [
+                "node_modules/*"
+            ]
+        }
+    },
+    "include": [
+        "*",
+        "node_modules/**/*"
+    ]
+}
